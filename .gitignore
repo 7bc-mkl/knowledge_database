@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Agent pipeline (.ai/) — generated per run, never source.
+# The config, tracker/browser descriptors and .ai/scripts/ launchers stay committed.
+.ai/qa/artifacts_*/
+.ai/qa/test-env.json
+.ai/qa/test-env.env
+
+# cez run state: handoff files and task worktrees. Must never be committed.
+.ai/cezar/
